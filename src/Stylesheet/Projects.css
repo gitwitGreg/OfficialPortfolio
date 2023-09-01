@@ -1,0 +1,57 @@
+.projects{
+    padding: 60px;
+    background: white;
+    color: white;
+    width: 100%;
+}
+
+.projects .pcontainer{
+    background: black;
+    border-radius: 40px;
+}
+
+.projects .pheader h1{
+    margin-left: 45%;
+    margin-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.projects .projectI{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 50px;
+}
+
+
+.projects .projectI img{
+    margin-bottom: 40px;
+}
+
+.projects .projectI p{
+    width: 75%;
+}
+
+.projects .projectI button{
+    margin-bottom: 30px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 3px;
+    color: royalblue;
+    transition: 0.3s ease;
+    background: white;
+    font-size: large;
+}
+
+.projects .projectI button:hover{
+    color: white;
+    border: 1px solid royalblue;
+    background: black;
+}
+
+.projects .projectI button:active{
+    color: white;
+    background: blue;
+}

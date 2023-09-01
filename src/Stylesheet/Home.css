@@ -1,0 +1,102 @@
+.hero{
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+.leftside{
+    color: white;
+    background: black;
+    padding-left: 20px;
+    justify-content: space-between;
+    width: 400%;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.hero .leftside h1{
+    margin-top: 90px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.hero .leftside h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #FF4F79;
+}
+
+.hero .leftside p{
+    font-size: larger;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+
+
+.hero .leftside .btns {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    position: relative;
+}
+
+.hero .rightside{
+    background: black;
+}
+
+.btns a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 150px;
+    background: #FF4F79;
+    border: 2px solid #FF4F79;
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.btns a:hover{
+    background-color: black;
+    color: #FF4F79;
+}
+
+.btns a:nth-child(2){
+    background: transparent;
+    color: #FF4F79;
+}
+
+.btns a::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    background: black;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btns a:hover::before{
+    width:100%;
+}
+
+.btns a:nth-child(2):hover{
+    color: #17183B;
+}
+
+.btns a:nth-child(2)::before{
+    background-color: #FF4F79;
+    color: #FF4F79;
+}
