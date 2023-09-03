@@ -1,5 +1,7 @@
 import ppic from '../assets/ppic.jpg'
 import '../Stylesheet/About.css'
+import ImportantDevicesIcon from '@mui/icons-material/ImportantDevices';
+import PeopleIcon from '@mui/icons-material/People';
 
 const About = () => {
   return (
@@ -7,7 +9,7 @@ const About = () => {
         <div className='intro'>
             <h1>Gregory Mensah</h1>
             <h3>Full-Stack Developer</h3>
-            <img src={ppic} width={400} height={400} className='ppic' id='prof'/>
+            <img src={ppic}className='ppic' id='prof'/>
         </div>
         <div className='description'>
             <h1>Summary</h1>
@@ -18,8 +20,8 @@ const About = () => {
             <p>During my pursuit of a computer science degree, I embarked on a transformative journey that equipped me with a versatile skill set. I honed my problem-solving abilities by immersing myself in the intricacies of various programming languages, mastering algorithms, and comprehending the intricacies of data structures. This comprehensive education provided me with a robust toolkit to approach challenges from diverse angles. As I tackled complex projects and collaborated with peers, I gained a profound appreciation for the importance of efficient coding practices and elegant solutions. My academic venture not only granted me technical proficiency but also instilled in me a deep-seated passion for innovation within the realm of computer science.</p>
         </div>
         <div className='skills'>
-            <h1 className='pink'> Technical Skills</h1>
-            <h1 className='blue'>Soft Skills</h1>
+            <h1 className='pink'> Technical Skills{<ImportantDevicesIcon />}</h1>
+            <h1 className='blue'>Soft Skills{<PeopleIcon />}</h1>
             <div className='pink'>
                 <ul id='tskills'>
                     <li>Typescript</li>

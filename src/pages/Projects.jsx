@@ -1,4 +1,3 @@
-import React from 'react'
 import '../Stylesheet/Projects.css'
 import { projects } from '../helpers/Projects'
 import ProjectCard from '../Components/ProjectCard'
