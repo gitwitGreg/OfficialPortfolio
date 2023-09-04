@@ -6,6 +6,6 @@
       { "src": "/", "dest": "/Home" },
       { "src": "/About", "dest": "/About" },
       { "src": "/Projects", "dest": "/Projects" },
-      { "src": "/Contact", "dest": "/Contact" },
+      { "src": "/Contact", "dest": "/Contact" }
     ]
   }
